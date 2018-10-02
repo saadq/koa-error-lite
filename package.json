@@ -1,0 +1,26 @@
+{
+  "name": "koa-error-lite",
+  "version": "0.1.0",
+  "description": "A minimal error-handler middleware for Koa apps",
+  "author": "Saad Quadri",
+  "license": "MIT",
+  "repository": "saadq/koa-error-lite",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "lynt && tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.46"
+  },
+  "devDependencies": {
+    "koa": "^2.5.3",
+    "lynt": "^0.5.3",
+    "prettier": "^1.14.3",
+    "typescript": "^3.1.1"
+  }
+}
