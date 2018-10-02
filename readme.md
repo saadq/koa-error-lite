@@ -1,6 +1,8 @@
 # koa-error-lite
 > A minimal error-handler middleware for Koa apps
 
+[![Build Status](https://travis-ci.org/saadq/koa-error-lite.svg?branch=master)](https://travis-ci.org/saadq/koa-error-lite)
+
 This is the [recommended Koa error handler](https://github.com/koajs/koa/wiki/Error-Handling) published as an `npm` package. I always use this middleware in my Koa apps, so it made sense to make it reusable.
 
 TypeScript declarations are included in the package.
